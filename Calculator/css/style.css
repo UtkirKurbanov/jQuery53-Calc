@@ -1,0 +1,39 @@
+*   {
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+.calc   {
+    width: 324px;
+    margin: auto;
+    background: #323232;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.calc__display   {
+    width: 100%;
+    height: 75px;
+    border: none;
+    background: #030807;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+input[type=button]{
+    width: 75px;
+    height: 75px;
+    margin: 2px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    background: #323232;
+    transition: 0.5s ease;
+}
+
+input[type=button]:hover{
+    background: #5b5959;
+}
